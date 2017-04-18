@@ -10,8 +10,8 @@ import cookielib
 br = mechanize.Browser()
 url = 'https://www.netflix.com/br/login'
 
-email = 'luehd@luan.net'
-senha = 'danilosk8'
+email = 'seuemail'
+senha = 'suasenha'
 # Prepara para tratar cookies...
 cj = cookielib.LWPCookieJar()
 br.set_cookiejar(cj)
